@@ -60,6 +60,63 @@ hr {
     border-radius: 16px;
 }
 
+.bloco-1-sem-altura {
+    background-color: #add8e6;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-2-sem-altura {
+    background-color: #ffb6c1;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-3-sem-altura {
+    background-color: #ff0000;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-1-fontes-diferentes {
+    background-color: #add8e6;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-2-fontes-diferentes {
+    background-color: #ffb6c1;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-3-fontes-diferentes {
+    background-color: #ff0000;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -105,12 +162,127 @@ hr {
     height: 500px;
 }
 
-.container-column-revers {
+.justify-content-center {
     display: flex;
-    flex-direction: ;
+    flex-direction: row;
+    justify-content: center;
     /* indiferente */
     background-color: #faebd7;
     padding: 16px;
     height: 500px;
 }
 
+.justify-content-flexstart {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* indiferente */
+    background-color: #faebd7;
+    padding: 16px;
+    height: 500px;
+}
+
+.justify-content-flexend {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* indiferente */
+    background-color: #faebd7;
+    padding: 16px;
+    height: 500px;
+}
+
+.justify-content-space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* indiferente */
+    background-color: #faebd7;
+    padding: 16px;
+    height: 500px;
+}
+
+.justify-content-space-around {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* indiferente */
+    background-color: #faebd7;
+    padding: 16px;
+    height: 500px;
+}
+
+.justify-content-space-evenly {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* indiferente */
+    background-color: #faebd7;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-items-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*linha do eixo principal */
+    align-items: center;
+    /*linha do eixo secundario */
+    /* indiferente */
+    background-color: #faebd7;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-items-flex-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*linha do eixo principal */
+    align-items: flex-start;
+    /*linha do eixo secundario */
+    /* indiferente */
+    background-color: #faebd7;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-items-flex-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*linha do eixo principal */
+    align-items: flex-end;
+    /*linha do eixo secundario */
+    /* indiferente */
+    background-color: #faebd7;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-items-stretch {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*linha do eixo principal */
+    align-items: stretch;
+    /*linha do eixo secundario */
+    /* indiferente */
+    background-color: #faebd7;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-items-baseline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*linha do eixo principal */
+    align-items: baseline;
+    /*linha do eixo secundario */
+    /* indiferente */
+    background-color: #faebd7;
+    padding: 16px;
+    height: 500px;
+}
