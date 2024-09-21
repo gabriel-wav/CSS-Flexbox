@@ -17,6 +17,14 @@
     padding: 20px;
 }
 
+.nome-da-propriedade-shorthand {
+    font-size: 2em;
+    font-weight: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #008000;
+    padding: 20px;
+}
+
 .valor-da-propriedade {
     font-size: 1, 5em;
     font-weight: 400px;
@@ -281,6 +289,66 @@ hr {
     /*linha do eixo principal */
     align-items: baseline;
     /*linha do eixo secundario */
+    /* indiferente */
+    background-color: #faebd7;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-flexwrap-nowrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*linha do eixo principal */
+    align-items: center;
+    /*linha do eixo secundario */
+    flex-wrap: nowrap;
+    /* sem quebra de texto*/
+    /* indiferente */
+    background-color: #faebd7;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-flexwrap-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*linha do eixo principal */
+    align-items: center;
+    /*linha do eixo secundario */
+    flex-wrap: wrap;
+    /* sem quebra de texto*/
+    /* indiferente */
+    background-color: #faebd7;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-flexwrap-wrap-reverse {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*linha do eixo principal */
+    align-items: center;
+    /*linha do eixo secundario */
+    flex-wrap: wrap-reverse;
+    /* sem quebra de texto*/
+    /* indiferente */
+    background-color: #faebd7;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-flexflow-row-nowrap {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    /*linha do eixo principal */
+    align-items: center;
+    /*linha do eixo secundario */
+    /* flex-wrap: nowrap; */
+    flex-flow: row nowrap;
     /* indiferente */
     background-color: #faebd7;
     padding: 16px;
