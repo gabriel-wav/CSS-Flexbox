@@ -9,6 +9,34 @@
 
 }
 
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    align-content: space-evenly;
+    margin: 0px 30px 0 30px;
+}
+
+.botao:hover {
+    background-color: chocolate;
+    border-radius: 15px;
+    padding: 5px 5px 5px 5px;
+}
+
+.titulovoltar {
+    font-size: xx-large;
+}
+
+
 .nome-da-propriedade {
     font-size: 2em;
     font-weight: 500px;
@@ -46,6 +74,7 @@ hr {
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 16px;
+    border: #000 0.1px solid;
 }
 
 .bloco2 {
@@ -56,6 +85,7 @@ hr {
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 16px;
+    border: #000 0.1px solid;
 }
 
 .bloco3 {
@@ -66,6 +96,7 @@ hr {
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 16px;
+    border: #000 0.1px solid;
 }
 
 .bloco-1-sem-altura {
@@ -75,6 +106,7 @@ hr {
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 16px;
+    border: #000 0.1px solid;
 }
 
 .bloco-2-sem-altura {
@@ -84,6 +116,7 @@ hr {
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 16px;
+    border: #000 0.1px solid;
 }
 
 .bloco-3-sem-altura {
@@ -93,6 +126,7 @@ hr {
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 16px;
+    border: #000 0.1px solid;
 }
 
 .bloco-1-fontes-diferentes {
@@ -103,6 +137,8 @@ hr {
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 16px;
+    border: #000 0.1px solid;
+
 }
 
 .bloco-2-fontes-diferentes {
@@ -113,6 +149,7 @@ hr {
     font-size: 60px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 16px;
+    border: #000 0.1px solid;
 }
 
 .bloco-3-fontes-diferentes {
@@ -123,6 +160,7 @@ hr {
     font-size: 90px;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 16px;
+    border: #000 0.1px solid;
 }
 
 .container {
@@ -349,6 +387,108 @@ hr {
     /*linha do eixo secundario */
     /* flex-wrap: nowrap; */
     flex-flow: row nowrap;
+    /* indiferente */
+    background-color: #faebd7;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-center {
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row; */
+    justify-content: center;
+    /*linha do eixo principal */
+    align-items: center;
+    /*linha do eixo secundario */
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
+    align-content: center;
+    /* indiferente */
+    background-color: #faebd7;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-flex-start {
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row; */
+    justify-content: center;
+    /*linha do eixo principal */
+    align-items: center;
+    /*linha do eixo secundario */
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
+    align-content: flex-start;
+    /* indiferente */
+    background-color: #faebd7;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-flex-end {
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row; */
+    justify-content: center;
+    /*linha do eixo principal */
+    align-items: center;
+    /*linha do eixo secundario */
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
+    align-content: flex-end;
+    /* indiferente */
+    background-color: #faebd7;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-space-between {
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row; */
+    justify-content: center;
+    /*linha do eixo principal */
+    align-items: center;
+    /*linha do eixo secundario */
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
+    align-content: space-between;
+    /* indiferente */
+    background-color: #faebd7;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-space-around {
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row; */
+    justify-content: center;
+    /*linha do eixo principal */
+    align-items: center;
+    /*linha do eixo secundario */
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
+    align-content: space-around;
+    /* indiferente */
+    background-color: #faebd7;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-align-content-space-evenly {
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row; */
+    justify-content: center;
+    /*linha do eixo principal */
+    align-items: center;
+    /*linha do eixo secundario */
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
+    align-content: space-evenly;
     /* indiferente */
     background-color: #faebd7;
     padding: 16px;
