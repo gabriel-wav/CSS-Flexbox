@@ -26,10 +26,16 @@ li {
     margin: 0px 30px 0 30px;
 }
 
+.botao {
+    background-color: initial; /* Define o background inicial */
+    border-radius: 15px; /* Aplica o border-radius também no estado normal */
+    padding: 5px 5px 5px 5px; /* Define o padding no estado normal */
+    transition: background-color 0.3s ease; /* Faz uma transição suave ao passar o mouse */
+} 
+
+
 .botao:hover {
     background-color: chocolate;
-    border-radius: 15px;
-    padding: 5px 5px 5px 5px;
 }
 
 .titulovoltar {
@@ -47,7 +53,7 @@ li {
 
 .nome-da-propriedade-shorthand {
     font-size: 2em;
-    font-weight: 500px;
+    font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
     color: #008000;
     padding: 20px;
@@ -55,7 +61,7 @@ li {
 
 .valor-da-propriedade {
     font-size: 1, 5em;
-    font-weight: 400px;
+    font-weight: 400;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #000;
     padding: 30px 0 5px;
